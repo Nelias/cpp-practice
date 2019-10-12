@@ -12,7 +12,12 @@ int main()
     if (myfile.is_open())
     {
         myfile << sentence;
+        myfile.close();
     }
-    myfile.close();
+    else
+    {
+        cout << "Error while opening a file\n"
+             << endl;
+    }
     return 0;
 }
