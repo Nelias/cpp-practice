@@ -1,2 +1,8 @@
 # cpp-practice
 C++ programs to practice the language
+
+## Running a program
+
+1. In your terminal window from the root folder go to a program's folder `cd folder-name`
+2. Run `clang++ program-name.cpp`
+3. Run `./a.out`
