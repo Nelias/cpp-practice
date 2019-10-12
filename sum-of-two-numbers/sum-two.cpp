@@ -7,6 +7,6 @@ int second_number = 15;
 
 int main()
 {
-    std::cout << "The sum of " + std::to_string(first_number) + " and " + std::to_string(second_number) + " is " + std::to_string(sum_two(first_number, second_number)) << std::endl;
+    std::cout << "The sum of " << std::to_string(first_number) << " and " << std::to_string(second_number) << " is " << std::to_string(sum_two(first_number, second_number)) << std::endl;
     return 0;
 }
