@@ -9,7 +9,10 @@ int main()
     cin >> sentence;
     ofstream myfile;
     myfile.open("sentence.txt");
-    myfile << sentence;
+    if (myfile.is_open())
+    {
+        myfile << sentence;
+    }
     myfile.close();
     return 0;
 }
