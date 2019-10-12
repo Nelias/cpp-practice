@@ -1,12 +1,10 @@
-const char *right_one = "~~~"
-                        "~~===^o<"
-                        "  / \\  ";
-const char *right_two = "~~~"
-                        "~~===^o<"
-                        " /  /   ";
-const char *right_middle = "~~~"
-                           "~~===^o<"
-                           "  | |   ";
-const char *right_three = "~~~"
-                          "~~===^o<"
-                          " \\ \\  ";
+const char *right_one = "~~===^*<\n"
+                        "  / \\  \n";
+const char *right_two = "~~===^*<\n"
+                        "  / /   \n";
+const char *right_middle =
+    "~~===^*<\n"
+    "  | |   \n";
+const char *right_three =
+    "~~===^*<\n"
+    "  \\ \\ \n";

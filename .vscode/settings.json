@@ -1,6 +1,7 @@
 {
 "editor.formatOnSave": true,
 "files.associations": {
-    "bitset": "cpp"
+    "bitset": "cpp",
+    "thread": "cpp"
 }
 }
