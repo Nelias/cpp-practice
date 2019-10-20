@@ -9,7 +9,7 @@ int main()
 
     char ch[80];
 
-    string_one.copy(ch, 13, 0);
+    string_one.copy(ch, 11, 0);
 
     std::cout << "The new copied character array is: ";
     std::cout << ch << std::endl
