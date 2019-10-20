@@ -1,16 +1,18 @@
 #include <iostream>
+#include <string>
 
 int main()
 {
-    char word[15];
+    std::string word;
     std::cout << "What word do you want to cut into pieces?" << std::endl;
-    std::cin >> word;
+    getline(std::cin, word);
     std::cout << "You picked: " << word << std::endl;
 
-    for (int i = 0; i < 15; i++)
+    for (int i = 0; i < word.length(); i++)
     {
         std::cout << word[i] << " ";
-        if (i == 15)
+
+        if (i == word.length())
         {
             std::cout << "\n";
         }
