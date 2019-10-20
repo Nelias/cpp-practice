@@ -15,7 +15,7 @@ int main()
 
         if (i == word.length())
         {
-            std::cout << "\n";
+            std::cout << std::endl;
         }
     }
 
