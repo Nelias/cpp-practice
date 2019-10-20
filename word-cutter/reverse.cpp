@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 #include <string>
 
@@ -11,10 +9,8 @@ int main()
     word.shrink_to_fit();
     std::cout << "You picked: " << word << std::endl;
 
-    // Declaring reverse iterator
     std::string::reverse_iterator iter_reverse;
 
-    // Displaying reverse string
     std::cout << "The reverse string using reverse iterators is : ";
     for (iter_reverse = word.rbegin(); iter_reverse != word.rend(); iter_reverse++)
         std::cout << *iter_reverse;
