@@ -1,5 +1,5 @@
 # cpp-practice
-C++ programs to practice the language
+C++ programs to practice this language
 
 ## Running a program
 
