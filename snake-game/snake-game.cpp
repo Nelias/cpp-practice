@@ -14,8 +14,8 @@ public:
     Snake()
     {
         map = new char [2000];
-        L = 0;
-        R = 1;
+        L = 1;
+        R = 0;
         D = 0;
         U = 0;
         A = 0;
