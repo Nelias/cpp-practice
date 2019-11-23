@@ -14,9 +14,9 @@ public:
     Snake()
     {
         map = new char [2000];
-        L = 1;
+        L = 0;
         R = 0;
-        D = 0;
+        D = 1;
         U = 0;
         A = 0;
         tail = 1; // Actually it will not have a tail until it eats the first apple
