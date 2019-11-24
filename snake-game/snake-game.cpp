@@ -15,8 +15,8 @@ public:
     {
         map = new char [2000];
         L = 0;
-        R = 0;
-        D = 1;
+        R = 1;
+        D = 0;
         U = 0;
         A = 0;
         tail = 1; // Actually it will not have a tail until it eats the first apple
